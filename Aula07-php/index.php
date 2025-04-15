@@ -20,37 +20,37 @@
 
 <p>
     <label for="Matematica">Nota de matemática:</label><br>
-    <input type="number" name="NotaMatematica" id="NotaMatematica" step="0.1" >
+    <input type="number" name="Matematica" id="Matematica" step="0.1" >
 </p>
 
 <p>
     <label for="Fisica">Nota de física:</label><br>
-    <input type="number" name="NotaFisica" id="NotaFisica" step="0.1">
+    <input type="number" name="Fisica" id="Fisica" step="0.1">
 </p>
 
 <p>
     <label for="Biologia">Nota de biologia:</label><br>
-    <input type="number" name="NotaBiologia" id="NotaBiologia" step="0.1">
+    <input type="number" name="Biologia" id="Biologia" step="0.1">
 </p>
 
 <p>
     <label for="Portugues">Nota de portugues:</label><br>
-    <input type="number" name="NotaPortugues" id="NotaPortugues" step="0.1">
+    <input type="number" name="Portugues" id="Portugues" step="0.1">
 </p>
 
 <p>
     <label for="Historia">Nota de historia:</label><br>
-    <input type="number" name="NotaHistoria" id="NotaHistoria" step="0.1">
+    <input type="number" name="Historia" id="Historia" step="0.1">
 </p>
 
 <p>
     <label for="Geografia">Nota de geografia:</label><br>
-    <input type="number" name="NotaGeografia" id="NotaGeografia" step="0.1">
+    <input type="number" name="Geografia" id="Geografia" step="0.1">
 </p>
 
 <p>
     <label for="Filosofia">Nota de filosofia:</label><br>
-    <input type="number" name="NotaFilosofia" id="NotaFilosofia" step="0.1">
+    <input type="number" name="Filosofia" id="Filosofia" step="0.1">
 </p>
 
     <button type="submit">Salvar</button>

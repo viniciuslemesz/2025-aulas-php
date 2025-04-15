@@ -18,6 +18,11 @@
         exit;
     }
     
+    $erros = validar_campos_form_boletim();
+
+    
+
+
     ?>
 
 
