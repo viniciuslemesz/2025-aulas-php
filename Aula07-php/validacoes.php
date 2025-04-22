@@ -4,6 +4,7 @@
         return $_SERVER['REQUEST_METHOD'] != 'POST';
     }
 
+    // verifica se campo ficou vazio
     function validar_campos_form_boletim() {
 
         $erros = array();
@@ -32,6 +33,28 @@
             echo $erro_atual . "<br>";
         }
     }
+
+    //função para validar intervalos das notas
+    function verificar_intervalo_notas()
+    {
+        $erros = array(); // prepara array de erros
+
+        foreach ($_POST as $indice => $valor){
+
+            if($indice != 'Aluno' && ($valor < 0 || $valor > 10)){
+
+                $erros[] = "Nota de $indice deve estar entre 0 e 10";
+            }
+
+        }
+
+        return $erros;
+    }
+
+    function formatar_nota($nota){
+        return number_format($nota, "1", ',', '.');
+    }
+
 
 
 ?>
